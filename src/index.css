@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+.heading-1 {
+  @apply font-prompt text-[60px] font-bold leading-[72px] text-black;
+}
+.heading-2 {
+  @apply font-prompt text-[48px] font-bold leading-[60px] text-black;
+}
+.heading-3 {
+  @apply font-prompt text-[36px] font-bold leading-[48px] text-black;
+}
+.heading-4 {
+  @apply font-prompt text-[30px] font-bold leading-[40px] text-black;
+}
+.heading-5 {
+  @apply font-prompt text-[24px] font-bold leading-[32px] text-black;
+}
+/* Sub header */
+.subheading-1 {
+  @apply font-prompt text-[20px] font-semibold leading-[28px] text-black;
+}
+.subheading-2 {
+  @apply font-prompt text-[16px] font-semibold leading-[22px] text-black;
+}
+.subheading-3 {
+  @apply font-prompt text-[14px] font-semibold leading-[20px] text-black;
+}
+.subheading-4 {
+  @apply font-prompt text-[12px] font-semibold leading-[16px] text-black;
+}
+.subheading-5 {
+  @apply font-prompt text-[10px] font-semibold leading-[14px] text-black;
+}
+/* Body */
+.body-1 {
+  @apply font-prompt text-[20px] font-light leading-[30px] text-black;
+}
+.body-2 {
+  @apply font-prompt text-[16px] font-light leading-[24px] text-black;
+}
+.body-3 {
+  @apply font-prompt text-[14px] font-light leading-[22px] text-black;
+}
+.body-4 {
+  @apply font-prompt text-[12px] font-light leading-[18px] text-black;
+}
+.body-5 {
+  @apply font-prompt text-[10px] font-light leading-[14px] text-black;
+}
